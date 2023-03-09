@@ -1,0 +1,13 @@
+
+#bg {
+    background-image: url(../images/table_black.png); 
+    background-position: center center;
+    /* определяет размер изображения на странице */
+    background-size: cover;
+    /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+    background-repeat: no-repeat;
+    /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+    вместе с остальной частью страницы или будет фиксированным */
+    /* background-attachment: fixed; */
+}
+
