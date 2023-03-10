@@ -12,16 +12,13 @@
     <script src="js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <nav class="uk-navbar-container" style="box-shadow: 0px 10px 20px;">
-        <div class="uk-dark uk-background-secondary uk-navbar uk-flex-center">
-            <ul class="uk-navbar-nav">
-                <li><a class="uk-navbar-item uk-logo">MyCompany</a></li>
-                <li><a href="#" uk-icon="info">Telegram</a></li>
-            </ul>
+    <div class="uk-overlay uk-flex uk-flex-center uk-overlay-primary uk-height-max-small uk-position-top" style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+        <div>
+            <p>LOGO</p>
         </div>
-    </nav>
+    </div>
     <div id="bg" class="uk-height-viewport uk-flex uk-flex-center uk-flex-wrap uk-background-cover uk-light" uk-img>
-        <div style="width: 100%; height: 10px; margin-top: 10%;">
+        <!-- <div style="width: 100%; height: 10px; margin-top: 10%;">
             <h1 class="uk-text-muted uk-heading-line uk-text-center">Почему мы?</h1>
         </div>
         <div style="width: 50%;">
@@ -45,12 +42,58 @@
                     </div>
                 </li>
             </ul>
+        </div> -->
+        <div style="position: absolute; top: 15%">
+            <div>
+                <div class="uk-light uk-padding">
+                    <h2 class="uk-text-large">Which chair will you put your mother in?</h2>
+                    <h4 class="uk-text-lead">We create chairs and furniture of any complexity, please contact us and we will help</h3>
+                    <h5 class="uk-text-muted">You will definitely like it!</h4>
+                    
+                    <button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-slide">More</button>
+                    
+                </div>
+            </div>
+            <div id="offcanvas-slide" uk-offcanvas="overlay: true">
+                <div class="uk-offcanvas-bar">
+                    
+                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+                    
+                    <h3>Title</h3>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    
+                </div>
+            </div>
         </div>
+            
+            
+            
+            
+            
+            
+        
+    </div>
+
+
+    <!-- FOOTER -->
+    <!-- <div class="uk-dark uk-background-secondary uk-card uk-card-default uk-card-body uk-text-center uk-position-z-index" uk-sticky="position: bottom;"> -->
+    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-height-small" style="background-attachment:inherit;">
+        <div class="uk-flex uk-flex-around uk-flex-wrap">
+            <a class="uk-icon-button" href="#" uk-icon="instagram"></a>
+            <a class="uk-icon-button" href="#" uk-icon="whatsapp"></a>
+            <a class="uk-icon-button" href="#" uk-icon="info"></a>
         </div>
-        <div class="uk-dark uk-background-secondary uk-card uk-card-default uk-card-body uk-text-center uk-position-z-index" uk-sticky="position: bottom;">
-            <a href="#" uk-icon="instagram">Instagram </a>
-            <a href="#" uk-icon="whatsapp">WhatsApp </a>
-            <a href="#" uk-icon="info">Telegram </a>
+        <br>
+        <div class="uk-nav-center">
+            <div>
+                <p class="uk-text-meta" uk-icon="location">Armenia</p>
+                <a class="uk-text-meta" href="#">Local address to Office</a>
+            </div>
+            <div>
+                <a class="uk-text-meta">+7-(999)-229-1498</a>
+            </div>
         </div>
+    </div>
 </body>
 </html>
